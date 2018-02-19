@@ -1,4 +1,50 @@
 
+body {
+    font-size: 24px;
+    line-height: 32px;
+    color: #333
+}
+
+body{
+    display: block;
+    margin: 8px;
+}
+
+header {
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #333;
+    background-color: #ccc;
+}
+h1 {
+    width: 66.6%
+}
+
+.container {
+    display: block;
+    background-color: rgb(138, 134, 134);
+}
+
+.headerlinks {
+    float: right;
+}
+.container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.About-Tim {
+    float: left;
+}
+
+.connect {
+    float: right;
+    padding: 20px;
+    border: solid 3px;
+    border-color: blue;
+    margin: 20px;
+}
+
 ul{
     list-style-type: none;
     margin: 0;
@@ -15,11 +61,21 @@ h1 {
     color: red;
 }
 #Timprofile {
-    height: 400px;
-    width: 400px;
+    float: left;
+    height: 300px;
+    width: 300px;
+    padding: 20 px;
+    border:  solid 2px;
+    border-color: blue;
+    margin: 20px;
 }
 
-#tntdes {
-    width: -10px;
-    height: -30px;
+footer {
+    padding: 25%;
 }
+
+#copyright { 
+    width: 100px;
+    height: 50px;
+}
+
