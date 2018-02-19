@@ -1,0 +1,25 @@
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #ddd;
+}
+
+.li {
+    display: inline-block;
+    float: none;
+    position: right;
+}
+h1 {
+    color: red;
+}
+#Timprofile {
+    height: 400px;
+    width: 400px;
+}
+
+#tntdes {
+    width: -10px;
+    height: -30px;
+}
