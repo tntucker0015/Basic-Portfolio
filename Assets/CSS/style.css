@@ -55,6 +55,16 @@ ul{
     color: #777777;
 }
 
+li {
+    float: left;
+    color: #777777;
+}
+
+a {
+    display: inline;
+    padding: 8px;
+   }
+
 .container::after {
     content: "";
     display: block;
