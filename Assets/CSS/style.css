@@ -1,5 +1,9 @@
+* {
+}
+
 body {
     box-sizing: border-box;
+    background-image: image("assets/images/skyscraper.png");
 }
 
 body {
@@ -140,7 +144,7 @@ footer {
     width: 85%;
     margin: 10px;
     padding: 30px;
-    border: solid 3px;
+    border-top: solid 3px;
     border-color: #cccccc;
 }
 
@@ -150,4 +154,66 @@ footer {
     height: 200px;
     margin: 10px;
     border: 3px solid #4aaaa5;
+}
+
+.Games {
+    background-color: #4aaaa5;
+    color: white;
+    float: left;
+    text-align: center;
+    width: 200px;
+    position: relative;
+    line-height: 0px;
+    bottom: 74px;
+}
+
+.Front-End {
+    background-color: #4aaaa5;
+    color: white;
+    float: left;
+    text-align: center;
+    width: 200px;
+    position: relative;
+    line-height: 0px;
+    bottom: 74px;
+}
+
+.backend {
+    background-color: #4aaaa5;
+    color: white;
+    float: left;
+    text-align: center;
+    width: 200px;
+    position: relative;
+    line-height: 0px;
+    bottom: 74px;
+}
+
+.fullstack {
+    background-color: #4aaaa5;
+    color: white;
+    float: left;
+    text-align: center;
+    width: 200px;
+    position: relative;
+    line-height: 0px;
+    bottom: 74px;
+}
+
+.javascript {
+    background-color: #4aaaa5;
+    color: white;
+    float: left;
+    text-align: center;
+    width: 200px;
+    position: relative;
+    line-height: 0px;
+    bottom: 74px;
+}
+
+.sticky {
+    position: -webkit -sticky;
+    position: sticky;
+    bottom: 0;
+    padding: 5px;
 }
