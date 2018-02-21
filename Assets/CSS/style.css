@@ -50,18 +50,12 @@ ul{
     padding: 0;
 }
 
-.li {
-    display: inline-block;
-    float: none;
-    padding: 10px;
-    position: right;
-}
-
 .container::after {
     content: "";
     display: block;
     clear: both;
 }
+
 .About-Tim {
     float: left;
     margin-top: 30px;
@@ -116,6 +110,8 @@ footer {
     padding-left: 300px;
     margin: auto;
     margin-top: 30px;
+    border-top: solid 3px;
+    border-top-color: #4aaaa5;
 }
 
 #copyright { 
@@ -128,3 +124,30 @@ footer {
     height: 15px;
 }
 
+.portfolio {
+    float: left;
+    margin-top: 30px;
+    padding: 10px;
+    width:600px;
+    text-align: justify;
+    background-color: #ffffff;
+    border: solid 3px;
+    border-color: #dddddd;
+}
+
+.portfolioimages {
+    float: left;
+    width: 85%;
+    margin: 10px;
+    padding: 30px;
+    border: solid 3px;
+    border-color: #cccccc;
+}
+
+.floating-box {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 3px solid #4aaaa5;
+}
